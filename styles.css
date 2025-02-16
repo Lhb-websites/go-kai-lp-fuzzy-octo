@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f8f9fa;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #4d6cb5;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta {
+    display: inline-block;
+    background: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: #cc5500;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    color: #4d6cb5;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Case Studies */
+.case-study {
+    display: inline-block;
+    width: 30%;
+    margin: 15px;
+}
+
+.case-study img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.case-study p {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+/* Contact Section */
+#contact {
+    background: #4d6cb5;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#contact a:hover {
+    color: #ffaa00;
+}
+
+@media (max-width: 768px) {
+    .case-study {
+        width: 100%;
+    }
+}
