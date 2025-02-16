@@ -28,7 +28,7 @@ header p {
 
 .cta {
     display: inline-block;
-    background: #ff6600;
+    background: #0f3969;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -38,7 +38,7 @@ header p {
 }
 
 .cta:hover {
-    background: #cc5500;
+    background: #0f4dd3;
 }
 
 /* Sections */
